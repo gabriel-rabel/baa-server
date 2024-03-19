@@ -1,31 +1,31 @@
 {
-   "name": "server-auth",
-   "version": "1.0.0",
-   "description": "Servidor com autenticação JWT and Bcrypt",
-   "main": "index.js",
-   "type": "module",
-   "scripts": {
-      "start": "node index.js",
-      "dev": "nodemon index.js"
-   },
-   "keywords": [],
-   "author": "",
-   "license": "ISC",
-   "dependencies": {
-      "bcrypt": "^5.0.1",
-      "cloudinary": "^1.40.0",
-      "cors": "^2.8.5",
-      "dotenv": "^16.0.2",
-      "express": "^4.18.1",
-      "express-jwt": "^8.4.1",
-      "js-encoding-utils": "^0.7.3",
-      "jsonwebtoken": "^9.0.2",
-      "mongoose": "^7.4.1",
-      "multer": "^1.4.5-lts.1",
-      "multer-storage-cloudinary": "^4.0.0",
-      "nodemailer": "^6.9.7"
-   },
-   "devDependencies": {
-      "nodemon": "^3.0.1"
-   }
+    "name": "baa-server",
+    "version": "1.0.0",
+    "description": "Servidor com autenticação JWT and Bcrypt",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "start": "node index.js",
+        "dev": "nodemon index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "bcrypt": "^5.0.1",
+        "cloudinary": "^1.40.0",
+        "cors": "^2.8.5",
+        "dotenv": "^16.0.2",
+        "express": "^4.18.1",
+        "express-jwt": "^8.4.1",
+        "js-encoding-utils": "^0.7.3",
+        "jsonwebtoken": "^9.0.2",
+        "mongoose": "^7.6.10",
+        "multer": "^1.4.5-lts.1",
+        "multer-storage-cloudinary": "^4.0.0",
+        "nodemailer": "^6.9.7"
+    },
+    "devDependencies": {
+        "nodemon": "^3.0.1"
+    }
 }
